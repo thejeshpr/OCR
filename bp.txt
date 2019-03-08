@@ -1,0 +1,37 @@
+Project:
+    - name
+    - version
+    - uuid
+    - date
+
+Flow:
+    - project (F)
+    - name
+    - path
+    - uuid
+    - desc
+    - inputs
+    - ouputs
+
+Flow Variable:
+    - flow (F)
+    -     
+
+Step:    
+    - flow (F)
+    - uuid
+    - name
+    
+
+Step Variable:
+    - step (F) 
+    - name
+    - var_type (input, output)
+    - scope (flow, step)
+    
+
+Input Variable:
+    - input_var_type
+    - name
+    - assignFrom
+    - 
